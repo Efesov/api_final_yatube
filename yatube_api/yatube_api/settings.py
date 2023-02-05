@@ -1,5 +1,8 @@
 import os
+import warnings
 from datetime import timedelta
+
+warnings.filterwarnings(action="ignore")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
